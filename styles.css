@@ -1,0 +1,136 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    font-family: roboto, sans-serif;
+    color: #1F2937; /* Default text color set as per style guide */
+  }
+  
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #1F2937;
+  }
+  
+  .logo {
+    font-weight: bold;
+    color: #F9FAF8;
+    font-size: 24px;
+  }
+  
+  .navbar .nav-link {
+    text-decoration: none;
+    margin-left: 20px;
+    color: #E5E7EB;
+    font-size: 18px;
+  }
+  
+  .hero {
+    text-align: center;
+    padding: 50px;
+    background-color: #1F2937;
+    color: #F9FAF8;
+    display: flex;
+    flex-direction: row;
+  }
+  
+  .hero h1 {
+    font-size: 48px;
+    font-weight: 800; /* Assuming extra-bold is approximated as 800 font weight */
+    margin-bottom: 20px;
+  }
+  
+  .hero .subtitle {
+    color: #E5E7EB;
+    font-size: 18px;
+    margin-bottom: 20px;
+  }
+  
+  .btn-signup {
+    padding: 10px 30px;
+    background-color: #3882F6;
+    color: white;
+    border-color: white;
+    cursor: pointer;
+    font-size: 18px; /* Assuming button text follows the same style as hero secondary text */
+  }
+  
+  .image-placeholder {
+    width: 100%;
+    height: 200px;
+    background-color: #ddd; /* Placeholder color, change as needed */
+    margin-top: 20px;
+    justify-content: flex-end;
+  }
+  
+  .info-section {
+    padding: 50px;
+    background-color: #fff;
+  }
+  
+  .info-section h2 {
+    text-align: center;
+    color: #1F2937;
+    font-size: 36px;
+    font-weight: 800;
+    margin-bottom: 50px;
+  }
+  
+  .info-cards {
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  .card {
+    width: calc(33.333% - 40px); /* Adjust width for margins */
+    text-align: center;
+    margin: 0 20px;
+  }
+  
+  .card-image {
+    width: 100%;
+    height: 150px;
+    background-color: #ddd;
+    border: 2px solid #007bff;
+    margin-bottom: 20px;
+  }
+  
+  .quote-section {
+    padding: 50px;
+    background-color: #E5E7EB;
+    text-align: center;
+    font-style: italic;
+    font-size: 36px;
+    color: #1F2937;
+  }
+  
+  .quote-section blockquote {
+    margin-bottom: 10px;
+  }
+  
+  .quote-section cite {
+    display: block;
+    margin-top: 10px;
+  }
+  
+  .cta-section {
+    background-color: #3882F6;
+    color: white;
+    text-align: center;
+    padding: 30px;
+    font-size: 18px;
+  }
+  
+  .footer {
+    background-color: #1F2937;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    font-size: 18px;
+  }
+  
